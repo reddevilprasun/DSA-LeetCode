@@ -10,7 +10,7 @@ public:
         for (int i = idx; i < arr.size(); i++) {
             swap(arr[idx], arr[i]);
             getAllPermute(arr, idx + 1, allPermute);
-            swap(arr[idx], arr[i]);
+            swap(arr[idx], arr[i]); // backtracking
         }
     }
     vector<vector<int>> permute(vector<int>& nums) {
