@@ -1,5 +1,7 @@
 class Solution {
 public:
+//O(n! * n) => TC
+//O(n!) => SC
     void getAllPermute(vector<int>& arr, int idx,
                        vector<vector<int>>& allPermute) {
         if (idx == arr.size()) { // base case
