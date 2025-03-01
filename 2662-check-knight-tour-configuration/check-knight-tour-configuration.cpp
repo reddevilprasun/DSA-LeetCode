@@ -1,30 +1,31 @@
 class Solution {
 public:
-    vector<vector<int>> knightMoves = {{-2, 1}, {-1, 2}, {1, 2},   {2, 1},
-                                       {2, -1}, {1, -2}, {-1, -2}, {-2, -1}};
-    bool isValid(vector<vector<int>>& grid, int n, int row, int col,
-                 int expvalue) {
-                    if(expvalue == n*n - 1) {
-                        return true;
-                    }
-                    grid[row][col] = -1 ; //mark as visited
-        for (int i = 0; i < knightMoves.size(); i++) {
-            for (int j = 0; j < knightMoves[i].size(); j += 2) {
-                int r = row + knightMoves[i][j];
-                int c = col + knightMoves[i][j + 1];
-                if (r >= 0 && c >= 0 && r < n && c < n &&
-                    grid[r][c] == expvalue + 1) {
-                    if(isValid(grid, n, r, c, expvalue + 1)){
-                        return true;
-                    }
+    bool isValid(vector<vector<int>>& grid, int n, int row, int col, int expvalue) {
+        if(row < 0 || col < 0 || row >= n || col >= n || grid[row][col] != expvalue) return false;
+        if(expvalue == n*n - 1) return true;
+        
+        grid[row][col] = -1; //mark as visited
+        bool ans1 = isValid(grid,n,row - 2, col + 1,expvalue + 1);
+        bool ans2 = isValid(grid,n,row - 2, col - 1,expvalue + 1);
+        bool ans3 = isValid(grid,n,row + 2, col + 1,expvalue + 1);
+        bool ans4 = isValid(grid,n,row + 2, col - 1,expvalue + 1);
+        bool ans5 = isValid(grid,n,row + 1, col - 2,expvalue + 1);
+        bool ans6 = isValid(grid,n,row - 1, col - 2,expvalue + 1);
+        bool ans7 = isValid(grid,n,row - 1, col + 2,expvalue + 1);
+        bool ans8 = isValid(grid,n,row + 1, col + 2,expvalue + 1);
+        
         grid[row][col] = expvalue; //backtracking
-                }
-            }
-        }
-        return false;
-
+        return 
+        ans1 || 
+        ans2 || 
+        ans3 || 
+        ans4 || 
+        ans5 || 
+        ans6 || 
+        ans7 || 
+        ans8;
     }
     bool checkValidGrid(vector<vector<int>>& grid) {
-        return isValid(grid,grid.size(),0,0,0);
+        return isValid(grid, grid.size(), 0, 0, 0);
     }
 };
