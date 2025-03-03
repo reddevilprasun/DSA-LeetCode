@@ -16,9 +16,12 @@ public:
 
 class Solution {
 public:
+    //use map to store the pair of oldNode and newNode address
+    //for connecting to the random pointers
     unordered_map<Node*, Node*> m;
     Node* copyRandomList(Node* head) {
-        if(head == NULL) return NULL;
+        if(head == NULL) return NULL; //edge case
+
         Node* newHead = new Node(head->val);
         m[head] = newHead;
         Node* newTemp = newHead;
