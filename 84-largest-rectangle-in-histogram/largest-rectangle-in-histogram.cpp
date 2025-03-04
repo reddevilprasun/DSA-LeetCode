@@ -9,25 +9,24 @@ public:
             while(!st.empty() && ht[st.top()] >= ht[i]){
                 st.pop();
             }
-            right[i] = st.empty() ? -1 : st.top();
+            right[i] = st.empty() ? n : st.top();
             st.push(i);
         }
+        while(!st.empty()) st.pop();
         //Left Small Nearest 
-        stack<int>st2;
         vector<int>left(n,0);
         for(int i = 0; i < n; i++) {
-            while(!st2.empty() && ht[st2.top()] >= ht[i]){
-                st2.pop();
+            while(!st.empty() && ht[st.top()] >= ht[i]){
+                st.pop();
             }
-            left[i] = st2.empty() ? -1 : st2.top();
-            st2.push(i);
+            left[i] = st.empty() ? -1 : st.top();
+            st.push(i);
         }
         int ans = INT_MIN;
         for(int i = 0; i < n ; i++) {
-            int r = right[i] == -1 ? n : right[i];
-            int l = left[i] == -1 ? -1 : left[i];
+            int width = right[i] - left[i] - 1;
                           // hight * width
-            int currntArea = ht[i] * ( r - l - 1);
+            int currntArea = ht[i] * width;
             ans = max(ans,currntArea);
         }
         return ans;
