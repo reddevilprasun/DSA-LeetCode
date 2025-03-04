@@ -8,7 +8,7 @@ public:
             while(!st.empty() && nums[st.top()] <= nums[i % n]){
                 st.pop();
             }
-            st.empty() ? ans[i % n] = -1 : ans[i % n] = nums[st.top()];
+            ans[ i % n ] = st.empty() ? -1 : nums[st.top()];
             st.push(i % n);
         }
         return ans;
