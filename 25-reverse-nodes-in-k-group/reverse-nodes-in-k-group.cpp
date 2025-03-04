@@ -16,12 +16,14 @@ public:
         ListNode* temp = head;
         ListNode* prevNode = NULL;
         int count = k;
+        // check if k Node exist
         while (count--) {
             if (temp == NULL)
-                return head;
+                return head; // if not return Head
             temp = temp->next;
         }
-        prevNode = reverseKGroup(temp, k);
+        prevNode = reverseKGroup(temp, k); // recursively call for rest of LL
+        //Reverse current group
         temp = head;
         while (k--) {
             ListNode* next = temp->next;
@@ -29,6 +31,7 @@ public:
             prevNode = temp;
             temp = next;
         }
+        //return new Head
         return prevNode;
     }
 };
