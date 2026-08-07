@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0134-gas-station) |
 | [0875-koko-eating-bananas](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0875-koko-eating-bananas) |
 ## Binary Search
 |  |
@@ -25,4 +26,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0112-path-sum) |
+## Greedy
+|  |
+| ------- |
+| [0134-gas-station](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0134-gas-station) |
 <!---LeetCode Topics End-->
