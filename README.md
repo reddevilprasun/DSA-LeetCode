@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0053-maximum-subarray) |
 | [0134-gas-station](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0134-gas-station) |
 | [0875-koko-eating-bananas](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0875-koko-eating-bananas) |
 ## Binary Search
@@ -30,4 +31,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0134-gas-station) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
