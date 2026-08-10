@@ -16,20 +16,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0112-path-sum) |
+| [0199-binary-tree-right-side-view](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0199-binary-tree-right-side-view) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0112-path-sum) |
+| [0199-binary-tree-right-side-view](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0210-course-schedule-ii](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0210-course-schedule-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0112-path-sum) |
+| [0199-binary-tree-right-side-view](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0210-course-schedule-ii](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0210-course-schedule-ii) |
 ## Binary Tree
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0112-path-sum) |
+| [0199-binary-tree-right-side-view](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0199-binary-tree-right-side-view) |
 ## Greedy
 |  |
 | ------- |
