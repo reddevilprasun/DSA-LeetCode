@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0078-subsets) |
 | [0134-gas-station](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0134-gas-station) |
+| [0560-subarray-sum-equals-k](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0875-koko-eating-bananas](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0875-koko-eating-bananas) |
 ## Binary Search
 |  |
@@ -62,4 +63,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0078-subsets) |
+## Hash Table
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0560-subarray-sum-equals-k) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/reddevilprasun/DSA-LeetCode/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
